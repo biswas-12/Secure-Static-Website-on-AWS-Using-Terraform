@@ -29,4 +29,3 @@ resource "aws_acm_certificate" "cert" {
   records = [each.value.record]
   
 }
-
