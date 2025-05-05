@@ -31,4 +31,3 @@ resource "aws_route53_record" "www_alias" {
     evaluate_target_health = false
   }
 }
-
