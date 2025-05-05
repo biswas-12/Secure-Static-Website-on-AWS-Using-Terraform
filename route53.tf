@@ -10,7 +10,7 @@ output "route53_name_servers" {
 # Create a Route53 alias record
 resource "aws_route53_record" "root_alias" {
   zone_id = aws_route53_zone.route_domain.zone_id
-  name    = "${var.domain_name}"
+  name    = "var.domain_name"
   type    = "A"
 
   alias {
