@@ -15,5 +15,3 @@ provider "aws" {
   access_key = "ADD_ACCESS_KEY"
   secret_key = "ADD_SECRET_KEY"
 }
-
-
