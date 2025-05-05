@@ -19,3 +19,6 @@ I deployed a static website hosted on Amazon S3, secured with SSL/TLS using AWS 
 
 ### Terraform
 - Infrastructure as Code (IaC) tool used to automate the provisioning of all AWS resources—ensuring repeatability, version control, and clean teardown if needed.
+
+## 
+👉 Read the [blog post](https://biswanath12.hashnode.dev/static-website-hosting-on-aws-using-s3-route-53-acm-and-cloudfront-terraform) and follow the steps below to set it up yourself.
