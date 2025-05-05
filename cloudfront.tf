@@ -19,7 +19,7 @@ resource "aws_cloudfront_distribution" "website_cdn" {
 
   # List of custom domain names (CNAMEs)
   aliases = [
-    "${var.domain_name}",
+    "var.domain_name",
     "www.${var.domain_name}"
   ]
   
