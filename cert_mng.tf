@@ -26,6 +26,5 @@ resource "aws_acm_certificate" "cert" {
   name    = each.value.name
   type    = each.value.type
   ttl     = 60
-  records = [each.value.record]
-  
+  records = [each.value.record] 
 }
