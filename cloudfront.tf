@@ -17,11 +17,10 @@ resource "aws_cloudfront_distribution" "website_cdn" {
   default_root_object = "index.html"
 
 
-
   # List of custom domain names (CNAMEs)
   aliases = [
-    "biswanathsah.me",
-    "www.biswanathsah.me"
+    "${var.domain_name}",
+    "www.${var.domain_name}"
   ]
   
 
@@ -49,7 +48,6 @@ resource "aws_cloudfront_distribution" "website_cdn" {
     minimum_protocol_version       = "TLSv1.2_2021"
   }
 
-  #
   restrictions {
     geo_restriction {
       restriction_type = "none"
