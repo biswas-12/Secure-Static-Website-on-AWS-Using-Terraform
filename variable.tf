@@ -1,11 +1,9 @@
 variable "bucketname" {
-    default = "biswanathsah.me"
+    default = "ADD_YOUR_DOMAIN_NAME"
 
 }
-
 
 variable "domain_name" {
   description = "Your registered domain name"
-  default     = "biswanathsah.me" 
+  default     = "ADD_YOUR_DOMAIN_NAME" 
 }
-
